@@ -84,6 +84,7 @@ table 1: `insert into table iceberg_test.a select id,name,age,addr from iceberg_
 Ps: left table 1 only need 1 record. 
 
 table 2: `insert into table iceberg_test.b select id,name,age,tel from iceberg_test.tt;`
+
 insert into table2 again: `insert into table iceberg_test.b select id,name,age,tel from iceberg_test.tt;`
 
 Ps: right table 2 must insert twice, Make sure to generate two large data files.
