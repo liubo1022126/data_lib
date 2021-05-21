@@ -52,9 +52,8 @@ OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat'
 LOCATION
   'hdfs://icebergHadoop/user/hive/warehouse/iceberg_test.db/tt/';
-
-upload data file to hadoop: hadoop fs -put orc_000000_0 hdfs://icebergHadoop/user/hive/warehouse/iceberg_test.db/tt/
 ```
+upload data file to hadoop: `hadoop fs -put orc_000000_0 hdfs://icebergHadoop/user/hive/warehouse/iceberg_test.db/tt/`
 
 4.create 2 iceberg tables
 ```
