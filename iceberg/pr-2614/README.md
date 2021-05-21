@@ -4,7 +4,8 @@ ORC format
 
 like below:
 
-`tt.id	tt.name	tt.age	tt.addr	tt.tel
+```
+tt.id	tt.name	tt.age	tt.addr	tt.tel
 1	name	age	addr	tel
 2	name	age	addr	tel
 3	name	age	addr	tel
@@ -14,7 +15,8 @@ like below:
 7	name	age	addr	tel
 8	name	age	addr	tel
 9	name	age	addr	tel
-10	name	age	addr	tel`
+10	name	age	addr	tel
+```
 
 
 test step:
